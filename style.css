@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif;
+}
+
+/* navigasi */
+
+nav{
+   background-color: rgba(30, 36, 60, 0.9);
+   height: 65px;
+   width: 100%;
+   position: fixed;
+   z-index: 99;
+}
+
+.hamburger-menu span{
+    background-color: white;
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+nav .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    z-index: 11;
+    display: none;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 10px;
+    float: left;
+}
+
+span{
+    color: #ffcb05;
+}
+
+li{
+    list-style: none;
+    padding: 20px 20px;
+    float: right;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button.nav{
+    position: relative;
+    top: -7px;
+}
+
+.button.nav:active{
+    box-shadow: none;
+    top: -5px;
+}
+
+
+/* Akhir navigasi */
+
+/* top */
+
+
+.top-jumbrot{
+    height: 600px;
+    width: 100%;
+    background-image: url(../asset/Tips-Ngoding-Aman-Sampai-Pagi-1024x576.jpg.webp);
+    background-size: cover;
+    background-position: -10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-jumbrot .description{
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+.top-jumbrot h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 3px;
+}
+
+.top-jumbrot h2{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.top-jumbrot p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #ffcb05;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+    box-shadow: 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.button:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+
+
+/* Akhir top */
+
+/* About me */
+
+
+h3{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.main1 h3{
+    color: #1e243c;
+    border-bottom: 3px solid #1e243c;
+}
+
+.sub-about{
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px 0 50px 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.about-description{
+    color: #1e243c;
+    padding: 20px;
+}
+
+.about-description.satu{
+    flex: 1;
+}
+
+.about-description.dua{
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+/* Akhir About me */
+
+/* Gallery */
+
+
+.main2{
+    background-color: #1e243c;
+}
+
+.main2 h3{
+    color: #ffcb05;
+    border-bottom: 3px solid #ffcb05;
+}
+
+.main2 .sub-gallery{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.thumbnail.dua{
+    margin-left: 30px;
+}
+
+.thumbnail.tiga{
+    margin-left: 30px
+}
+
+.caption{
+    color: #ffcb05;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 15px;
+}
+
+
+/* Akhir Gallery */
+
+/* Contact */
+
+
+.main3 h3{
+    color: #1e243c;
+    border-bottom: 3px solid #1e243c;
+}
+
+.main3 p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.main3 input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color: #ffcb05;
+    box-sizing: border-box;
+    border-color: #1e243c;
+}
+
+.btn-contact-form{
+    border: none;
+    display : block;
+    margin-bottom: 30px;
+    background-color: #1e243c;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.8);
+}
+
+
+/* Akhir Contact */
+
+/* Footer */
+
+
+footer{
+    background-color: rgb(30, 36, 60);
+    height: 65px;
+    width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+    color: white;
+    float: right;
+    line-height: 65px;
+}
+
+
+/* Akhir Footer */

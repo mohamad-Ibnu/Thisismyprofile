@@ -1,0 +1,88 @@
+/* Widescreen Layout*/
+
+/* Normal Layout*/
+
+/* Tablet Layout */
+
+@media (max-width: 768px){
+    .nav{
+        position: fixed;
+    }
+
+    .sub-about{
+        display: inline;
+        font-size: 18px;
+    }
+
+    .about-description.dua{
+        margin-left: 0;
+    }
+
+    .sub-gallery{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail{
+        margin: 20px;
+    }
+
+    .caption{
+        font-size: 18px;
+    }
+}
+
+/* Mobile L Layout */
+
+@media (max-width: 425px){
+    header main footer{
+        width: 100%;
+    }
+
+    ul{
+        display: none;
+    }
+    
+    nav .menu-icon{
+        display: block;
+    }
+
+    .top-jumbrot h1{
+        font-size: 36px;
+    }
+
+    .top-jumbrot h2{
+        font-size: 24px;
+    }
+
+    .main3 input, textarea{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 18px;
+    }
+}
+
+/* Smartphone M layout */
+
+@media (max-width: 375px){
+    header main footer{
+        width: 100%;
+    }
+
+    .top-jumbrot h1{
+        font-size: 30px;
+    }
+
+    .top-jumbrot h2{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 26px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+}
